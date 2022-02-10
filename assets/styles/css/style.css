@@ -7,9 +7,16 @@
 body {
   font-family: 'Kanit', sans-serif; }
 
+.about_title h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  word-break: break-all; }
+  @media screen and (min-width: 100px) {
+    .about_title h1 {
+      font-size: 8rem; } }
+
 .project_container {
-  padding: 2rem;
-  background-color: #fcf8d8; }
+  padding: 2rem; }
   @media screen and (max-width: 600px) {
     .project_container {
       padding: 0rem; } }
@@ -35,7 +42,8 @@ body {
         .project_container .project .project_technology .project_technology_carousel .technology h2 {
           margin: 0px !important; }
     .project_container .project .project_name {
-      padding: 0px 10px; }
+      border-top: 1px solid black !important;
+      padding: 10px 10px; }
       .project_container .project .project_name h2 {
         color: black;
         font-size: 2.5rem;
@@ -44,9 +52,9 @@ body {
           .project_container .project .project_name h2 {
             font-size: 3.5rem; } }
     .project_container .project .project_description {
-      margin-top: 10px; }
+      margin-top: 15px; }
     .project_container .project .all_details {
-      margin-top: 15px !important;
+      margin-top: 25px !important;
       margin-bottom: 0px !important;
       margin-left: 0px !important;
       margin-right: 0px !important; }

@@ -13,12 +13,23 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
+.about_title {
+    h1 {
+        font-size: 6rem;
+        text-transform: uppercase;
+        word-break: break-all;
+        @media screen and (min-width: 100px) {
+        font-size: 8rem;
+            
+        }
+    }
+}
 
 .project_container {
     
     padding: 2rem;
 
-    background-color: #fcf8d8;
+    // background-color: #fcf8d8;
 
     // &.one {
     //     background-color: #48E5C9;
@@ -46,7 +57,6 @@ body {
         margin: auto;
         border-top: 1px solid $colorGray;
         border-bottom: 1px solid $colorGray;
-       
 
         .project_imgs {
             padding: 20px;
@@ -79,7 +89,8 @@ body {
         }
 
         .project_name {
-            padding: 0px 10px;
+            border-top: 1px solid black !important;
+            padding: 10px 10px;
             h2 {
                 color: black;
                 font-size: 2.5rem;
@@ -91,11 +102,11 @@ body {
         }
 
         .project_description {
-            margin-top: 10px;
+            margin-top: 15px;
         }
 
         .all_details {
-            margin-top: 15px !important;
+            margin-top: 25px !important;
             margin-bottom: 0px !important;
             margin-left: 0px !important;
             margin-right: 0px !important;
