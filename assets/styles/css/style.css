@@ -15,6 +15,15 @@ body {
     .about_title h1 {
       font-size: 6rem; } }
 
+.outer_section .one {
+  margin-top: 50px !important; }
+
+.outer_section > :not(.mt-0) .project_imgs {
+  margin-top: 80px; }
+  @media screen and (max-width: 500px) {
+    .outer_section > :not(.mt-0) .project_imgs {
+      margin-top: 50px; } }
+
 .project_container {
   padding: 0rem 2rem; }
   @media screen and (max-width: 1000px) {

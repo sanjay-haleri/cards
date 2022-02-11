@@ -10,10 +10,10 @@ $('.project_img_carousel').owlCarousel({
 
 
 $('.project_technology_carousel').owlCarousel({
-    loop: true,
+    loop: false,
     margin:10,
     nav: false,
-    center: true,
+    center: false,
     dots: false
 });
 

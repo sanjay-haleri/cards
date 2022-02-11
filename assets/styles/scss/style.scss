@@ -24,7 +24,25 @@ body {
         }
     }
 }
+.owl-item  {
+    &.active.center {
+        // border: 3px solid $colorGray;
+    }
+}
 
+.outer_section {
+    .one{
+        margin-top: 50px !important;
+    }
+    & > :not(.mt-0) {
+        .project_imgs {
+            margin-top: 80px;
+            @media screen and (max-width: 500px)  {
+                margin-top: 50px;
+            }
+        }
+    }
+}
 
 .project_container {
      
@@ -55,19 +73,12 @@ body {
     }
 
     .project {
-
         max-width: 1200px;
         margin: auto;
         border-top: 1px solid $colorGray;
-      
+
         .project_imgs {
             padding: 20px;
-            .item {
-                img {
-                    // border-radius: 10px;
-                    // box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.31);
-                }
-            }
         }
 
         .project_technology {
