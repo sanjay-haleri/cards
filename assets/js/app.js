@@ -14,6 +14,7 @@ $('.project_technology_carousel').owlCarousel({
     margin:10,
     nav: false,
     center: false,
-    dots: false
+    dots: false,
+    autoWidth: window.innerWidth < 575 ? true : false,
 });
 
